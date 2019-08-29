@@ -28,9 +28,7 @@
       <div class="slider-item">
         <div class="container">
           <div class="row d-flex slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-						
 						<div class="img" style="background-image: url(images/bg_1.jpg);"></div>
-
             <div class="text d-flex align-items-center ftco-animate">
             	<div class="text-2 pb-lg-5 mb-lg-4 px-4 px-md-5">
 		          	<h3 class="subheading mb-3">Featured Posts</h3>
@@ -39,7 +37,6 @@
 		            <p><a href="#" class="btn btn-black px-3 px-md-4 py-3">Read More <span class="icon-arrow_forward ml-lg-4"></span></a></p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -47,9 +44,7 @@
       <div class="slider-item">
         <div class="container">
           <div class="row d-flex slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-
           	<div class="img" style="background-image: url(images/bg_2.jpg);"></div>
-
             <div class="text d-flex align-items-center ftco-animate">
             	<div class="text-2 pb-lg-5 mb-lg-4 px-4 px-md-5">
 		          	<h3 class="subheading mb-3">Featured Posts</h3>
@@ -58,12 +53,10 @@
 		            <p><a href="#" class="btn btn-black px-3 px-md-4 py-3">Read More <span class="icon-arrow_forward ml-lg-4"></span></a></p>
 	            </div>
             </div>
-
           </div>
         </div>
       </div>
     </section>
-
 
     <section class="ftco-section">
     	<div class="container">
@@ -211,7 +204,6 @@
     	<div class="container-fluid">
     		<div class="row">
 					<div class="col-sm-6 col-md-6 col-lg-9 order-md-last img py-5" style="background-image: url(images/bg_3.jpg);"></div>
-
 	        <div class="col-sm-6 col-md-6 col-lg-3 py-4 text d-flex align-items-center ftco-animate">
 	        	<div class="text-2 py-5 px-4">
 	          	<p class="mb-5"><a href="https://vimeo.com/45830194" class="btn-custom popup-vimeo">Watch Video <span class="ion-ios-play ml-4"></span></a></p>
