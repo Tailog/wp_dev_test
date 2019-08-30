@@ -6,3 +6,4 @@
   define('INCLUDE_DIR', get_template_directory() . "/includes");
   // require_once() import files that we need
   require_once(INCLUDE_DIR . '/enqueue_style_script.php');
+  require_once(INCLUDE_DIR . '/menu.php');
