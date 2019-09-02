@@ -3,16 +3,16 @@
    * Get the content of the file 'header.php'
    */
   get_header();
-?>
+		?>
     <!-- START NAV -->
-    <?php get_template_part('./templates/navbar'); ?>
-    <!-- END nav -->
-
+    <?php get_template_part('./templates/navbar');?>
+    <!-- END NAV -->
+    <!-- START CAROUSEL -->
     <section class="home-slider owl-carousel">
       <div class="slider-item">
         <div class="container">
           <div class="row d-flex slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-						<div class="img" style="background-image: url(images/bg_1.jpg);"></div>
+						<div class="img" style="background-image: url(<?php echo esc_url( get_theme_mod( 'image_header_1' ) ); ?>);"></div>
             <div class="text d-flex align-items-center ftco-animate">
             	<div class="text-2 pb-lg-5 mb-lg-4 px-4 px-md-5">
 		          	<h3 class="subheading mb-3">Featured Posts</h3>
@@ -28,7 +28,7 @@
       <div class="slider-item">
         <div class="container">
           <div class="row d-flex slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-          	<div class="img" style="background-image: url(images/bg_2.jpg);"></div>
+          	<div class="img" style="background-image: url(<?php echo esc_url( get_theme_mod( 'image_header_2') ); ?>);"></div>
             <div class="text d-flex align-items-center ftco-animate">
             	<div class="text-2 pb-lg-5 mb-lg-4 px-4 px-md-5">
 		          	<h3 class="subheading mb-3">Featured Posts</h3>
@@ -41,7 +41,6 @@
         </div>
       </div>
     </section>
-
     <section class="ftco-section">
     	<div class="container">
     		<div class="row">
